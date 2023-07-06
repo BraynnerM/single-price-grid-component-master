@@ -1,34 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import "./styles/app.sass"
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="container">
+
+      <div className="top-side">
+        <h1>Join our community</h1>
+
+
+
+        <h2>30-day, hassle-free money back guarantee</h2>
+        <div className="top-paragraph">
+          <p>Gain access to our full library of tutorials along with expert code reviews.</p>
+
+          <p>Perfect for any developers who are serious about honing their skills.</p>
+
+        </div>
+
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div className="bottom-side">
+        <div className="bottom-side-left">
+          <h3>Monthly Subscription</h3>
+          <div className="price">
+            <p>$29</p>
+            <p>per month</p>
+          </div>
+          <p>Full access for less than $1 a day</p>
+          <button>Sign Up</button>
+
+        </div>
+        <div className="bottom-side-right">
+          <h3>Why Us</h3>
+          <ul>
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+    </div>
   )
 }
 
