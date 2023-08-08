@@ -1,4 +1,4 @@
-# Frontend Mentor - 3 Column preview card component main challenge
+# Frontend Mentor - Single price grid component master challenge
 
 Esta é uma solução para o desafio do Frontend Mentor [Single price grid component master challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub). Os desafios do Frontend Mentor ajudam a melhorar minhas habilidades de codificação criando projetos realistas.
 
